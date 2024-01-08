@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   
+    <title>Gauri Saxena | Portfolio</title>
+    <meta name="title" content="Gauri Saxena | Portfolio" />
+    <meta name="description" content="This is my personal portfolio" />
+
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+   
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+ 
+    <link rel="preload" as="image" href="./assets/images/me3.jpg" />
+  </head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/portfolio.png"
+            width="54"
+            height="14"
+            alt="Portfolio icon"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img src="./assets/images/portfolio.png" width="64" height="24" />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#skills" class="navbar-link">Skills</a>
+            </li>
+
+            <li>
+              <a href="#experience" class="navbar-link">Experience</a>
+            </li>
+            <li>
+              <a href="#education" class="navbar-link">Education</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="navbar-link">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+
+          <ul class="social-list">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/gaurisaxena02/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/gauri02saxena" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:gaurisaxena7379@gmail.com" class="social-link">
+                <ion-icon name="logo-google"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://auth.geeksforgeeks.org/user/gaurisaxena7379/articles"
+                class="social-link"
+              >
+                <ion-icon name="pencil-outline"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="section hero" id="home" aria-label="home">
+          <div class="container">
+            <figure >
+              <img id="my-image"
+                src="./assets/images/me3.jpg"
+                width="560"
+                height="540"
+                alt="Gauri"
+                class="w-100"
+                data-reveal="top"
+              />
+            </figure>
+
+            <div class="hero-content">
+              <h1
+                class="h1 hero-title"
+                data-reveal="top"
+                data-reveal-delay="0.5s"
+              >
+                Hi! I'm Gauri Saxena.
+              </h1>
+
+              <p
+                class="section-text"
+                data-reveal="top"
+                data-reveal-delay="0.75s"
+              >
+                I'm a skilled full-stack developer, proficient in the MERN stack
+                and multiple programming languages. My hands-on experience is
+                showcased in my portfolio, reflecting my commitment to
+                technology excellence.
+              </p>
+
+              <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+                <a
+                  href="./assets/Resume_Gauri_Saxena.pdf"
+                  download="Gauri_Saxena_Resume"
+                  class="btn btn-primary"
+                  >My Resume</a
+                >
+
+                <a
+                  href="mailto:gaurisaxena7379@gmail.com"
+                  class="btn btn-secondary"
+                  >Contact Me</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- SKILLS SECTION  -->
+        <section class="education-section skills" id="skills">
+          <h2>Skills</h2>
+          <br />
+          <div class="container">
+            <div class="skills-grid" data-reveal="right">
+              <div class="skill-item">
+                <div class="skill-name">C/C++</div>
+                <div class="bar">
+                  <div
+                    class="skill-bar"
+                    style="width: 70%; background-color: #c7b1dd"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-name">Python</div>
+                <div class="bar">
+                  <div
+                    class="skill-bar"
+                    style="width: 70%; background-color: #8caeec"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-name">JavaScript</div>
+                <div class="bar">
+                  <div
+                    class="skill-bar"
+                    style="width: 85%; background-color: #b0d4c1"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-name">React.js</div>
+                <div class="bar">
+                  <div
+                    class="skill-bar"
+                    style="width: 90%; background-color: #e3a6b6"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-name">Node.js</div>
+                <div class="bar">
+                  <div
+                    class="skill-bar"
+                    style="width: 85%; background-color: #c7b1dd"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-name">Express.js</div>
+                <div class="bar">
+                  <div
+                    class="skill-bar"
+                    style="width: 90%; background-color: #8caeec"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-name">REST APIs</div>
+                <div class="bar">
+                  <div
+                    class="skill-bar"
+                    style="width: 90%; background-color: #b0d4c1"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-name">HTML</div>
+                <div class="bar">
+                  <div
+                    class="skill-bar"
+                    style="width: 98%; background-color: #e3a6b6"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-name">C/C++</div>
+                <div class="bar">
+                  <div
+                    class="skill-bar"
+                    style="width: 70%; background-color: #c7b1dd"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-name">CSS</div>
+                <div class="bar">
+                  <div
+                    class="skill-bar"
+                    style="width: 95%; background-color: #8caeec"
+                  ></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-name">Boostrap</div>
+                <div class="bar">
+                  <div
+                    class="skill-bar"
+                    style="width: 95%; background-color: #b0d4c1"
+                  ></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-name">MySQL</div>
+                <div class="bar">
+                  <div
+                    class="skill-bar"
+                    style="width: 80%; background-color: #e3a6b6"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-name">MongoDB</div>
+                <div class="bar">
+                  <div
+                    class="skill-bar"
+                    style="width: 90%; background-color: #c7b1dd"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Experience Section -->
+        <div class="education-section experience" id="experience">
+          <h2>Experience</h2>
+          <div class="education-container" data-reveal="left">
+            <!-- Item 1 -->
+            <div class="experience-card education-item">
+              <img
+                src="./assets/images/gfg.png"
+                loading="lazy"
+                alt="Logo"
+                class="card"
+              />
+              <h3>Intern</h3>
+              <p>Geeksforgeeks</p>
+              <p>Aug 2022- Aug 2023</p>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="experience-card education-item" data-reveal="bottom">
+              <img src="./assets/images/postman.png" class="card" alt="Logo" />
+              <h3>Student Expert</h3>
+              <p>Postman</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- EDUCATION  -->
+        <div class="education-section education" id="education">
+          <h2>Education</h2>
+          <div class="education-container">
+            <!-- Education Item 1 -->
+            <div class="education-item experience-card" data-reveal="right">
+              <img
+                src="./assets/images/jaypee.png"
+                alt="Institution Logo"
+                loading="lazy"
+                class="card"
+              />
+              <h3>B.Tech in Computer Science</h3>
+              <p>Jaypee University of Engineering and Technology, Guna</p>
+            </div>
+            <!-- Education Item 2 -->
+            <div class="education-item experience-card" data-reveal="bottom">
+              <img
+                src="./assets/images/dps.png"
+                class="card"
+                alt="Institution Logo"
+              />
+              <h3>Intermediate</h3>
+              <p>Delhi Public School, Kanpur</p>
+              <p>Percentage: 96%</p>
+            </div>
+
+            <!-- Education Item 3 -->
+            <div class="education-item experience-card" data-reveal="bottom">
+              <img
+                src="./assets/images/dps.png"
+                class="card"
+                alt="Institution Logo"
+              />
+              <h3>High School</h3>
+              <p>Delhi Public School, Kanpur</p>
+              <p>Percentage: 96.4%</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 
+        - #PROJECT
+      -->
+
+        <section
+          class="section portfolio"
+          id="portfolio"
+          aria-labelledby="project-label"
+        >
+          <div class="container">
+            <div class="title-wrapper" data-reveal="top">
+              <div>
+                <h2>Portfolio</h2>
+
+                <p class="section-text">
+                  Check out some of my latest projects with creative ideas.
+                </p>
+              </div>
+            </div>
+            <br />
+
+            <ul class="grid-list main">
+              <li>
+                <div
+                  class="project-card project-card-4"
+                  style="background-color: #fff6f3"
+                >
+                  <div class="card-content" data-reveal="left">
+                    <h3 class="h3 card-title">Infant Care App</h3>
+
+                    <p class="card-text">
+                      The Infant Care App is a comprehensive web application
+                      tailored for new parents and caregivers. Built using the
+                      MERN stack (MongoDB, Express.js, React.js, Node.js), this
+                      app provides a user-friendly and responsive platform to
+                      ensure effective infant care and vaccine tracking.
+                    </p>
+
+                    <a
+                      href="https://github.com/gauri02saxena/infant_care_app"
+                      class="btn-text"
+                      style="color: #674632"
+                    >
+                      <span class="span">See Project</span>
+
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <figure class="card-banner" data-reveal="right">
+                    <img
+                      src="./assets/images/project-1.png"
+                      loading="lazy"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="project-card project-card-4"
+                  style="background-color: #f1f5fd"
+                >
+                  <div class="card-content" data-reveal="right">
+                    <h3 class="h3 card-title">
+                      AnonyVerse: A Secrets Sharing Platform
+                    </h3>
+
+                    <p class="card-text">
+                      The AnonyVerse App is a Node.js and Express.js powered
+                      platform, using Passport.js and Google OAuth for robust
+                      user authentication, ensuring anonymity in sharing
+                      secrets. MongoDB and Mongoose orchestrate the app's data
+                      management, while EJS templates enrich the user interface.
+                      Environment variables are securely managed with Dotenv,
+                      completing a seamless, private user experience.
+                    </p>
+
+                    <a
+                      href="https://github.com/gauri02saxena/AnonyVerse"
+                      class="btn-text"
+                      style="color: #3f78e0"
+                    >
+                      <span class="span">See Project</span>
+
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <figure class="card-banner" data-reveal="left">
+                    <img
+                      src="./assets/images/project-2.png"
+                      loading="lazy"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="project-card project-card-4"
+                  style="background-color: #fcf4f6"
+                >
+                  <div class="card-content" data-reveal="left">
+                    <h3 class="h3 card-title">The Book Attic</h3>
+
+                    <p class="card-text">
+                      The Book Attic is a captivating and engaging landing page
+                      that invites you into the wonderful world of literature.
+                      This page is designed to captivate your attention with its
+                      visually appealing layout, interactive elements, and a
+                      touch of nostalgia.
+                    </p>
+
+                    <a href="https://github.com/gauri02saxena/The_book_attic" class="btn-text" style="color: #d16b86">
+                      <span class="span">See Project</span>
+
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <figure class="card-banner" data-reveal="right">
+                    <img
+                      src="./assets/images/project-4.png"
+                      loading="lazy"
+                      class="w-100"
+                    />
+                  </figure>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #CONTACT
+      -->
+
+        <section class="section contact" id="contact" aria-label="contact">
+          <div class="container">
+            <h2>Contact</h2>
+            <br />
+            <div class="contact-card">
+              <div class="contact-content" data-reveal="left">
+                <div class="card-icon">
+                  <img
+                    src="./assets/images/icon-5.svg"
+                    width="44"
+                    height="44"
+                    loading="lazy"
+                    alt="envelop icon"
+                  />
+                </div>
+
+                <h2 class="h2 section-title">Get In touch</h2>
+
+                <p class="section-text">
+                  Don't hesitate to reach out! I'm always excited to connect
+                  with like-minded individuals and explore new opportunities.
+                </p>
+              </div>
+
+              <form
+                id="contact-form"
+                action=""
+                class="contact-form"
+                data-reveal="right"
+              >
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Name *"
+                    required
+                    class="input-field"
+                  />
+
+                  <input
+                    type="email"
+                    id="email"
+                    name="email_address"
+                    placeholder="Email *"
+                    required
+                    class="input-field"
+                  />
+                </div>
+
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Message *"
+                  required
+                  class="input-field"
+                ></textarea>
+
+                <button
+                  id="sendMessageButton"
+                  type="submit"
+                  class="btn btn-secondary"
+                >
+                  Send message
+                </button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <p class="copyright">@2022 gauri02saxena</p>
+
+        <ul class="social-list">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/gaurisaxena02/"
+              class="social-link"
+            >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/gauri02saxena" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="mailto:gaurisaxena7379@gmail.com" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://auth.geeksforgeeks.org/user/gaurisaxena7379/articles"
+              class="social-link"
+            >
+              <ion-icon name="pencil-outline"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Modal Structure -->
+    <div id="successModal" class="modal" style="display: none">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Message sent successfully to Gauri Saxena!</p>
+      </div>
+    </div>
+
+  
+    <script src="./assets/js/script.js"></script>
+
+   
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
