@@ -267,6 +267,44 @@ body.nav-active {
   align-items: center;
 }
 
+.logo-name {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem; /* Smaller size */
+  color: #333; /* Black color */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  padding: 10px 0;
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .navbar[data-navbar] .logo-name {
+    color: #fff; /* White color for hamburger menu */
+  }
+}
+
+/* Ensure the navbar class and data-navbar attribute are targeted when the menu is toggled */
+.navbar[data-nav-toggler] .logo-name {
+  color: #fff; /* White color for toggled menu */
+}
+
+.navbar .navbar-top .logo {
+  text-align: center;
+}
+
+
+.navbar .navbar-top .logo {
+  text-align: center;
+}
+
+
+.navbar .navbar-top .logo {
+  text-align: center;
+}
+
+
 .nav-open-btn {
   font-size: 3.5rem;
   color: var(--gunmetal);
